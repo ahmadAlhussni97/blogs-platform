@@ -44,7 +44,7 @@ export default memo(function Pagination(props) {
     <div className="pagination">
        <Link onClick={()=>goToPrevPage()}  to="/" >«</Link>
        {pageNumbers.map(pgNumber => (
-        <Link  key={pgNumber-1}  className= {`page-item ${currentPage == (pgNumber-1) ? 'active-link' : ''} `} 
+        <Link  key={pgNumber-1}  className= {`page-item ${currentPage === (pgNumber-1) ? 'active-link' : ''} `} 
         onClick={()=>generateNewPage(pgNumber-1)} to="/" >  {pgNumber}  </Link>
          ))}
         <Link onClick={()=>goToNextPage()} to="/" >»</Link>
