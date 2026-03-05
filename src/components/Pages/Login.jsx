@@ -25,7 +25,7 @@ export default function Login(props) {
       <h2>Login Page</h2>
       <form onSubmit={(event)=>userLogin(event)}>
         <div className="imgcontainer">
-            <img className='avatar' src={require("../../assets/images/profile.png")} />
+            <img className='avatar' src={require("../../assets/images/profile.png")} alt='img'  />
         </div>
         <div className="container">
             <label htmlFor="user_id"><b>User Id</b></label>

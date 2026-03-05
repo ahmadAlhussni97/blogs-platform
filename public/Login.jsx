@@ -6,7 +6,7 @@ export default function Login() {
       <h2>Login Form</h2>
       <form action="/action_page.php" method="post">
             <div className="imgcontainer">
-              <img src="./images/logo192.png"  />
+              <img src="./images/logo192.png" alt='img'  />
             </div>
         <div className="container">
             <label for="uname"><b>User Id</b></label>

@@ -11,7 +11,7 @@ export default function SinglePageContent(props) {
         <div className="leftcolumn">
         <div style={cardSinglePage}>
             <h2>{props.data?.title}</h2>
-            <div ><img src={require(`../../../assets/images/Home/team${getRandomInt(1, 3)}.jpg`)} /></div>
+            <div ><img src={require(`../../../assets/images/Home/team${getRandomInt(1, 3)}.jpg`)} alt='img'  /></div>
             <p style={padding}>{props.data?.body}</p>
         </div>
         </div>
